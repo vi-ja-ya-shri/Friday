@@ -19,3 +19,18 @@ Friday doesn’t just chat – it can also **fetch weather updates, search the w
 ---
 
 
+## 📂 Project Structure
+├── agent.py # Main entrypoint – sets up assistant session with LiveKit
+├── prompts.py # Defines persona (AGENT_INSTRUCTION) & greeting (SESSION_INSTRUCTION)
+├── tools.py # External tools (weather, web search, email)
+└── .env # Environment variables (not checked into repo)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/friday-assistant.git
+cd friday-assistant
+
